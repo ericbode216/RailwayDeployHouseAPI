@@ -313,3 +313,4 @@
 /Users/ericbode/Documents/RailwayDeployHouseAPI/API/obj/Debug/net9.0/API.pdb
 /Users/ericbode/Documents/RailwayDeployHouseAPI/API/obj/Debug/net9.0/API.genruntimeconfig.cache
 /Users/ericbode/Documents/RailwayDeployHouseAPI/API/obj/Debug/net9.0/ref/API.dll
+/Users/ericbode/Documents/RailwayDeployHouseAPI/API/obj/Debug/net9.0/API.sourcelink.json
