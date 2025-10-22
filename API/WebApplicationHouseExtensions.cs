@@ -5,6 +5,10 @@ public static class WebApplicationHouseExtensions
 {
     public static void mapHouseEndpoints(this WebApplication app)
     {
+        app.MapGet("/test", ()=>{
+            return Results.Ok("hello world");
+        });
+        
         app.MapGet("/houses", (IHouseRepository repo) => repo.GetAll())
             .Produces<HouseDto[]>(StatusCodes.Status200OK);
         app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) =>
